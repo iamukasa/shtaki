@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chooseAva"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Choose photo from gallery" />
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/camera"
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a photo" />
+
+
+</LinearLayout>

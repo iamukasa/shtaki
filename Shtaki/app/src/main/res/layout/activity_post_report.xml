@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarSingleStack"
+        android:textColor="@color/white_pure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:src="@drawable/index"
+        android:scaleType="fitXY"
+        android:id="@+id/postImage"/>
+    <EditText
+        android:id="@+id/brewTitle"
+        android:hint="Title of your report"
+        android:layout_width="match_parent"
+        android:inputType="textAutoComplete"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/brewLocation"
+        android:hint="@string/where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/brewInstitution"
+        android:hint="@string/institution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/brewDescription"
+        android:hint="@string/describe"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postBrew"
+        android:background="@color/blue"
+        android:text="Post Report"
+        android:textSize="20dp"
+        android:textColor="@color/white_pure"
+        />
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
